@@ -2,9 +2,9 @@
 
 This is a Vue.js-based task manager app built to help organize your tasks efficiently. It’s packed with features to make task management straightforward and flexible, with a clean, modern interface powered by Bootstrap.
 
-# ![Task Manager Screenshot](images/screenshot.png)
 
-*A snapshot of the app, showing the sleek task list and intuitive controls.*
+![Task Manager Screenshot](images/screenshot.png)
+
 
 ## Features
 
