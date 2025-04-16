@@ -23,6 +23,7 @@
     <TaskSummary :tasks="tasks" />
     <CategoryManager :categories="categories" @add-category="addCategory" @delete-category="deleteCategory" />
     <Settings @export-tasks="exportTasks" @import-tasks="importTasks" />
+    <DogPhoto />
     </div>
   
   </div>
@@ -35,6 +36,7 @@ import TaskList from './components/TaskList.vue';
 import TaskSummary from './components/TaskSummary.vue';
 import CategoryManager from './components/CategoryManager.vue';
 import Settings from './components/AppSettingsComponent.vue';
+import DogPhoto from './components/DogPhoto.vue'; 
 
 export default {
   components: {
@@ -43,7 +45,8 @@ export default {
     TaskList,
     TaskSummary,
     CategoryManager,
-    Settings
+    Settings,
+    DogPhoto
   },
   data() {
     return {
